@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="build\tailwind.css">
+</head>
+
+<body class="bg-gray-200">
+    <!-- make image responsive by max-w and mx-auto inset-0(px-0 py-0)-->
+    <div class="flex">
+
+        <div class="px-8 py-12 bg-white max-w-xl mx-auto lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
+            <div class="xl:max-w-lg xl:ml-auto">
+                <img class="h-24" src="img/logo-social.png" alt="Workation">
+            <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="img/pexels-photo.jpeg" alt="">
+            <h1 class="mt-6 text-4xl text-gray-900 font-bold leading-tight sm:mt-8 lg:text-3xl xl:text-4xl">
+            You can work from anywhere.
+            <br class="hidden lg:inline">
+            <span class="text-indigo-500">
+               Take advantage of it.
+            </span>
+            </h1>
+            <p class="mt-4 text-gray-600 text-xl">Work in physics, measure of energy transfer 
+                that occurs when an object is moved over a distance 
+                by an external force at least part of which is applied 
+                in the direction of the displacement. If the force is constant, 
+                work may be computed by multiplying the length of the
+                 path by the component of the force acting along the path.
+            </p>
+
+            <div class="mt-4 sm:mt-6 sm:text-base">
+                <!-- active: (used for button click) | tracking-wider (widden the text) | focus: (when focused on a perticular button/text)-->
+                <a class="btn shadow-lg sm:text-base " href="#">Book your work</a>
+                <!-- uppercase inline-block px-5 py-3 bg-indigo-500 md:hover:bg-green-400 md:text-2xl active:bg-indigo-600 text-sm focus:shadow-outline text-white rounded-lg shadow-lg tracking-wider font-semibold -->
+            </div>
+            </div>
+            
+        
+        </div>
+
+        <div class="hidden lg:block lg:w-1/2 relative">
+        <img class="absolute inset-0 h-full w-full object-cover object-center" src="img/pexels-photo.jpeg" alt="">
+        </div>
+
+    </div>
+    
+</body>
+</html>
